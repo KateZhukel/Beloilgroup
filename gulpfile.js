@@ -42,3 +42,6 @@ gulp.task('serve', function() {
     gulp.watch("app/scss/**/*.scss", gulp.parallel("sass"));
     gulp.watch("*.html", gulp.parallel("html"));
 });
+gulp.task('build', gulp.parallel('sass', 'html', 'serve'), function () {
+
+});
