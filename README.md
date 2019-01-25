@@ -1,4 +1,7 @@
-#START PROJECT
+# Start project
 
-###Enter command: 
+## Enter command:
+
+```bash
 gulp build
+```
